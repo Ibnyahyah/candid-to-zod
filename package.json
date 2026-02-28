@@ -1,6 +1,6 @@
 {
   "name": "candid-to-zod",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Internet Computer Candid files (.did.js, .did.ts) into runtime-safe TypeScript Zod validation schemas.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -33,7 +33,7 @@
   "bugs": {
     "url": "https://github.com/Ibnyahyah/candid-to-zod/issues"
   },
-  "homepage": "https://candid-to-zod.netlify.app#readme",
+  "homepage": "https://github.com/Ibnyahyah/candid-to-zod#readme",
   "license": "ISC",
   "type": "module",
   "dependencies": {

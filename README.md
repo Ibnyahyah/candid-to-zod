@@ -59,9 +59,12 @@ npm run generate:zod
 #### CLI Options
 | Flag | Name | Description | default |
 |---|---|---|---|
-| `-i, --input` | Input Path | The generated `.did.js` or `.did.ts` Candid file | **Required** |
+| `-i, --input` | Input Path | The generated `.did.js` or **`.did.ts`** Candid file | **Required** |
 | `-o, --output` | Output Path| Where to save the formatted `.ts` Zod schema | **Required** |
 | `--no-infer` | Skip Inferences | Skip generating `export type X = z.infer<typeof XSchema>;` | `false` |
+
+> [!TIP]
+> **Flexible Export Discovery**: The CLI automatically detects your IDL factory even if it's not named `idlFactory`. It looks for any export ending in `IdlFactory`, making it compatible with all versions of `dfx generate`.
 
 
 ### 2. Validate Data in your App
