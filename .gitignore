@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+generated/
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+*.pem
+
+# testing & temporary files
+coverage/
+.nyc_output/
+test.did.ts
+test.did.js
+*.tmp.js
+
+# Env variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
